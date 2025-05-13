@@ -7,24 +7,29 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="flex">
       <div>
         <h1>
-          <strong className="bg-blue-400 p-2 rounded-full">A</strong>jibola
+          <strong className="text-blue-400 font-bold p-2 rounded-full text-2xl ">
+            A
+          </strong>
+          jibola
         </h1>
       </div>
-      <Link to="/">
-        <Aboutme />
-      </Link>
-      <Link to="/skills">
-        <Skills />
-      </Link>
-      <Link to="/hobbies">
-        <Hobbies />
-      </Link>
-      <Link to="/assion">
-        <Passion />
-      </Link>
+      <div className="flex gap-5">
+        <Link to="/">
+          <button> About Me</button>
+        </Link>
+        <Link to="/skills">
+          <button>Skills</button>
+        </Link>
+        <Link to="/hobbies">
+          <button>Hobbies</button>
+        </Link>
+        <Link to="/passion">
+          <button>Passion</button>
+        </Link>
+      </div>
     </div>
   );
 }

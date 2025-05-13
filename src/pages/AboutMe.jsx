@@ -4,7 +4,9 @@ import myPic from "../assets/myPic.jpg";
 export default function Aboutme() {
   return (
     <div className="flex">
-      <img className="w-full rounded-full" src={myPic} alt="my-pic" />
+      <div className="rounded-full w-10">
+        <img className="" src={myPic} alt="my-pic" />
+      </div>
       <div>
         <h3>Software Developer</h3>
         <h1>Ajibola Korede</h1>

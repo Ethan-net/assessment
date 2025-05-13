@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex">
+    <div className="flex items-center justify-between mx-[10%]">
       <div>
         <h1>
           <strong className="text-blue-400 font-bold p-2 rounded-full text-2xl ">

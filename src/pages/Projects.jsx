@@ -1,7 +1,7 @@
 import React from "react";
 import linklogo from "../assets/linklogo.png";
 import git from "../assets/git.svg";
-import phouse from "../assets/powerhouse.png";
+import powerhouse from "../assets/powerhouse.png";
 import crypto from "../assets/cryptop.png";
 import rvep from "../assets/rvep.png";
 import web3fruity from "../assets/web3fruit.png";
@@ -18,7 +18,7 @@ export default function Projects() {
       <ul className="flex gap-8 sm:gap-10 md:gap-14 lg:gap-20 justify-center flex-wrap">
         {[
           {
-            src: phouse,
+            src: powerhouse,
             title: "Power House",
             desc: "Designed to support solar and inverter installation companies by providing an online platform for potential customers to explore solar products, estimates their needs , and book inspection for installation",
             stack: "React, Css, Tailwind, Expressjs, MongoDB",

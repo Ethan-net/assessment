@@ -44,9 +44,14 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex gap-2">
-          <img className="w-5" src={github} alt="github" />
+          <a href="https://github.com/Ethan-net">
+            <img className="w-5" src={github} alt="github" />
+          </a>
+
           <img className="w-5" src={twitter} alt="twitter" />
-          <img className="w-5" src={linkdn} alt="linkedin" />
+          <a href="https://www.linkedin.com/in/korede-ajibola-2a53981b5">
+            <img className="w-5" src={linkdn} alt="linkedin" />
+          </a>
         </div>
       </div>
 
@@ -74,13 +79,13 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="flex gap-4 mt-4">
-          <Link to="https://github.com/Ethan-net">
+          <a href="https://github.com/Ethan-net">
             <img className="w-5" src={github} alt="github" />
-          </Link>
+          </a>
           <img className="w-5" src={twitter} alt="twitter" />
-          <Link to="https://www.linkedin.com/in/korede-ajibola-2a53981b5">
+          <a href="https://www.linkedin.com/in/korede-ajibola-2a53981b5">
             <img className="w-5" src={linkdn} alt="linkedin" />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

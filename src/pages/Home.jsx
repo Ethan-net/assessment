@@ -1,8 +1,9 @@
 import React from "react";
-import Aboutme from "./AboutMe";
+import Aboutme from "../components/AboutMe";
 
 import TechStack from "./TeckStack";
 import Projects from "./Projects";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Aboutme />;
       <TechStack />
       <Projects />
+      <Footer />
     </>
   );
 }

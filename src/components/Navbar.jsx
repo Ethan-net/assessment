@@ -10,7 +10,7 @@ import github from "../assets/github.svg";
 
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-between mx-[10%]">
+    <div className="flex items-center justify-between fixed top-0 z-50 w-full bg-white py-5 px-[10%]">
       <div>
         <h1 className="font-bold text-lg bg-gradient-to-r from-pink-500 via-black to-blue-500 bg-clip-text text-transparent">
           {"{Ethan}"}

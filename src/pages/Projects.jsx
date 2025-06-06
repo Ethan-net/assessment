@@ -2,11 +2,11 @@ import React from "react";
 import linklogo from "../assets/linklogo.png";
 import git from "../assets/git.svg";
 import powerhouse from "../assets/powerhouse.PNG";
-import crypto from "../assets/cryptop.png";
-import rvep from "../assets/rvep.png";
-import web3fruity from "../assets/web3fruit.png";
-import eatright from "../assets/eatrightMain.png";
-import ERadmin from "../assets/DashBoard.png";
+import crypto from "../assets/cryptop.PNG";
+import rvep from "../assets/rvep.PNG";
+import web3fruity from "../assets/web3fruit.PNG";
+import eatright from "../assets/eatrightMain.PNG";
+import ERadmin from "../assets/DashBoard.PNG";
 
 export default function Projects() {
   return (

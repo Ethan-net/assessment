@@ -1,27 +1,36 @@
 import React from "react";
-import myPic from "../assets/myPic.jpg";
+import myPic from "../assets/myimg.jpg";
+import { motion } from "framer-motion";
+import "../App.css";
 
 export default function Aboutme() {
   return (
-    <div className="flex  items-center mx-[20%] shadow-lg p-10 border-1 ">
-      <img
-        className="mr-20  w-56 h-56 rounded-full border-8 border-gray-500 "
-        src={myPic}
-        alt="my-pic"
-      />
-
-      <div>
-        <h3 className="text-2xl text-gray-500">Software Developer</h3>
-        <h1 className="text-3xl my-5 text-blue-500 font-bold">
+    <div className="flex justify-between mx-[10%] py-20 items-center border-1 ">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="flex flex-col gap-2"
+      >
+        <h1 className=" textcolor text-5xl font-bold">Hi👋,</h1>
+        <h1 className="text-5xl textcolor font-bold">My Name is</h1>
+        <h1 className="text-5xl bg-gradient-to-r from-blue-400  to-purple-600 bg-clip-text text-transparent font-bold">
           Ajibola Korede
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          velit unde nam, doloremque beatae, voluptatem fuga placeat tenetur
-          aperiam quos sint magni minima assumenda facilis ab doloribus
-          architecto! Perspiciatis, quos.
-        </p>
-      </div>
+        <h1 className="text-5xl textcolor font-bold">I Build Things for web</h1>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2 }}
+        className="rounded-full bg-gradient-to-t from-blue-400  to-pink-600 p-2 "
+      >
+        <img
+          className=" w-auto h-[45dvh] rounded-full  "
+          src={myPic}
+          alt="my-pic"
+        />
+      </motion.div>
     </div>
   );
 }

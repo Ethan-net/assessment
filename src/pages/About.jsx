@@ -39,6 +39,34 @@ function About() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex gap-1 items-center">
                   <img src={building} alt="" />
+                  <p>CVToCAREER</p>
+                </div>
+                <div className="flex gap-1 items-center">
+                  <img src={location} alt="" />
+                  <p>Remote Australia</p>
+                </div>
+              </div>
+              <div className="flex gap-1 items-center">
+                <img src={calender} alt="" />
+                <p>Jun 2025 - current</p>
+              </div>
+            </section>
+          </li>
+          <hr className="border-[1px] border-zinc-400" />
+          {/* Experience Item */}
+          <li className="my-6 md:my-10">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+              <h3 className="font-thin text-zinc-500 text-xl md:text-2xl">
+                Full-Stack Software Developer
+              </h3>
+              <p className="bg-green-200 text-green-700 text-[12px] px-5 py-1 font-semibold rounded-xl">
+                Full Time
+              </p>
+            </div>
+            <section className="flex flex-col md:flex-row md:justify-between text-[12px] text-zinc-500 gap-2 mt-2">
+              <div className="flex flex-wrap gap-4">
+                <div className="flex gap-1 items-center">
+                  <img src={building} alt="" />
                   <p>Donclem-Technology</p>
                 </div>
                 <div className="flex gap-1 items-center">
@@ -48,7 +76,7 @@ function About() {
               </div>
               <div className="flex gap-1 items-center">
                 <img src={calender} alt="" />
-                <p>Jan 2025 - currrent</p>
+                <p>Jan 2025 - May 2025</p>
               </div>
             </section>
           </li>

@@ -97,6 +97,14 @@ export default function TechStack() {
             />
             <p className="text-sm">Expressjs</p>
           </div>
+          <div className="flex flex-col items-center">
+            <img
+              className="w-10"
+              src="https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+              alt="VS Code"
+            />
+            <p className="text-sm">NextJs</p>
+          </div>
         </div>
       </div>
     </motion.div>

@@ -43,14 +43,6 @@ export default function Projects() {
             repo: "",
           },
           {
-            src: web3fruity,
-            title: "Web3 Fruity",
-            desc: "Collaborated with a team to build this web3 project that helps you keep track of newly launched crypto project and airdrops",
-            stack: "React, Css,Typescript, Tailwind, Expressjs, MongoDB",
-            live: "https://www.web3fruity.com/",
-            repo: "",
-          },
-          {
             src: eatright,
             title: "EatRight Web",
             desc: "Eat Right offers a modern, seamless experience — from browsing dynamic price menu and exploring a variety of dishes to placing orders and booking reservations, all with sleek design and full mobile responsiveness.",
